@@ -1,5 +1,5 @@
 #include "NeoIBus.h"             // SoftIBus library
-NeoICSerial IBuspin(14, 15);   // "serial" port on which we will be running the IBus connection. 
+NeoICSerial IBuspin; //(14, 15);   // "serial" port on which we will be running the IBus connection. 
                                   // Since to read values we only need the Rx, just connect pin D14 and leave D15 open
 
 // *** ВАЖНО!!! *** ЧИТАТЬ ВНИМАТЕЛЬНО!!! ***
